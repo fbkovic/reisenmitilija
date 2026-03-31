@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ContactForm from "./components/ContactForm";
 
 const HERO_IMAGE =
   "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=2000&auto=format&fit=crop";
@@ -176,55 +177,24 @@ export default function Home() {
             </p>
           </div>
           <div className="mx-auto mt-12 max-w-lg rounded-2xl border border-stone-200/80 bg-white p-8 shadow-lg shadow-stone-900/5">
-            <dl className="space-y-6 text-center">
-              <div>
-                <dt className="text-xs font-semibold uppercase tracking-wider text-stone-500">
-                  Telefon
-                </dt>
-                <dd className="mt-1 text-lg font-medium text-stone-800">
-                  <a
-                    href="tel:+436776472130"
-                    className="transition hover:text-teal-600"
-                  >
-                    +43 677 647 213 00
-                  </a>
-                </dd>
-              </div>
-              <div>
-                <dt className="text-xs font-semibold uppercase tracking-wider text-stone-500">
-                  E-Mail
-                </dt>
-                <dd className="mt-1 text-lg font-medium text-stone-800">
-                  <a
-                    href="mailto:ilja.reisen@yahoo.com"
-                    className="transition hover:text-teal-600"
-                  >
-                    ilja.reisen@yahoo.com
-                  </a>
-                </dd>
-              </div>
-              <div>
-                <dt className="text-xs font-semibold uppercase tracking-wider text-stone-500">
-                  Instagram
-                </dt>
-                <dd className="mt-1">
-                  <a
-                    href="https://www.instagram.com/reisenmitilija"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-teal-50 px-4 py-1.5 text-teal-800 transition hover:bg-teal-100"
-                  >
-                    @reisenmitilija
-                  </a>
-                </dd>
-              </div>
-              <div>
-                <dt className="text-xs font-semibold uppercase tracking-wider text-stone-500">
-                  Facebook
-                </dt>
-                <dd className="mt-1 text-lg text-stone-700">Reisen mit Ilja</dd>
-              </div>
-            </dl>
+            <ContactForm />
+          </div>
+
+          <div className="mx-auto mt-10 flex flex-wrap justify-center gap-6 text-sm text-stone-500">
+            <a href="tel:+436776472130" className="transition hover:text-teal-600">
+              +43 677 647 213 00
+            </a>
+            <a href="mailto:ilja.reisen@yahoo.com" className="transition hover:text-teal-600">
+              ilja.reisen@yahoo.com
+            </a>
+            <a
+              href="https://www.instagram.com/reisenmitilija"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-teal-600"
+            >
+              @reisenmitilija
+            </a>
           </div>
         </div>
       </section>
