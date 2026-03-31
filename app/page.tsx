@@ -95,17 +95,12 @@ export default function Home() {
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-stone-200 shadow-xl ring-1 ring-stone-900/5">
             <Image
-              src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=1200&auto=format&fit=crop"
-              alt="Platzhalter: Reiseimpression"
+              src="/ilja.jpg"
+              alt="Ilja – Reisen mit Ilja"
               fill
-              className="object-cover"
+              className="object-cover object-top"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
-            <div className="absolute inset-0 flex items-center justify-center bg-stone-900/20">
-              <p className="rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-stone-800 shadow-sm">
-                Foto folgt
-              </p>
-            </div>
           </div>
         </div>
       </section>
