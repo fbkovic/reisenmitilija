@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
   const transporter = nodemailer.createTransport({
     service: "yahoo",
     auth: {
-      user: "ilja.reisen@yahoo.com",
+      user: "ilija.reisen@yahoo.com",
       pass: process.env.EMAIL_PASS,
     },
   });
@@ -31,8 +31,8 @@ Datenschutz zugestimmt: Ja
 
   try {
     await transporter.sendMail({
-      from: "ilja.reisen@yahoo.com",
-      to: "ilja.reisen@yahoo.com",
+      from: "ilija.reisen@yahoo.com",
+      to: "ilija.reisen@yahoo.com",
       subject: `Neue Anfrage von ${vorname} ${name}`,
       text,
     });
