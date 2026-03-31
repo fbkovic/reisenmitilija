@@ -13,12 +13,12 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Reisen mit Ilja | Individuelle Reiseerlebnisse",
+  title: "Reisen mit Ilija | Individuelle Reiseerlebnisse",
   description:
     "Persönlich geplante Reisen und unvergessliche Momente. Bald unter reisenmitilija.at.",
   metadataBase: new URL("https://reisenmitilija.at"),
   openGraph: {
-    title: "Reisen mit Ilja",
+    title: "Reisen mit Ilija",
     description: "Individuelle Reiseerlebnisse – bald online.",
     locale: "de_AT",
     type: "website",

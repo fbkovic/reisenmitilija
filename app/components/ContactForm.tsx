@@ -52,7 +52,7 @@ export default function ContactForm() {
         </div>
         <h3 className="text-lg font-semibold text-teal-900">Vielen Dank!</h3>
         <p className="mt-2 text-teal-700">
-          Deine Anfrage wurde gesendet. Ilja meldet sich bald bei dir.
+          Deine Anfrage wurde gesendet. Ilija meldet sich bald bei dir.
         </p>
       </div>
     );

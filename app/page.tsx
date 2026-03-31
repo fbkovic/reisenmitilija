@@ -17,7 +17,7 @@ export default function Home() {
       <header className="absolute inset-x-0 top-0 z-20">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 lg:px-8">
           <span className="font-display text-xl font-medium tracking-tight text-white drop-shadow-sm md:text-2xl">
-            Reisen mit Ilja
+            Reisen mit Ilija
           </span>
           <a
             href="#kontakt"
@@ -53,7 +53,7 @@ export default function Home() {
           </h1>
           <p className="mt-6 max-w-xl text-lg text-stone-200 md:text-xl">
             Für Pensionist*innen und Senior*innen, die nicht alleine reisen
-            möchten – organisiert von Ilja, Geograph und erfahrener Reisebegleiter.
+            möchten – organisiert von Ilija, Geograph und erfahrener Reisebegleiter.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
@@ -83,7 +83,7 @@ export default function Home() {
               Geographie-Absolvent · Lehrer · Reisebegleiter
             </p>
             <h2 className="font-display text-3xl font-medium text-stone-900 md:text-4xl">
-              Über Ilja
+              Über Ilija
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-stone-600">
               Ich plane entspannte und gut organisierte Gruppenreisen für
@@ -120,7 +120,7 @@ export default function Home() {
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-stone-200 shadow-xl ring-1 ring-stone-900/5">
             <Image
               src="/ilja.jpg"
-              alt="Ilja – Reisen mit Ilja"
+              alt="Ilija – Reisen mit Ilija"
               fill
               className="object-cover object-top"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -173,7 +173,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-stone-600">
               Kein Buchungssystem – einfach Kontakt aufnehmen und unverbindlich
-              Interesse bekunden. Ilja meldet sich persönlich.
+              Interesse bekunden. Ilija meldet sich persönlich.
             </p>
           </div>
           <div className="mx-auto mt-12 max-w-lg rounded-2xl border border-stone-200/80 bg-white p-8 shadow-lg shadow-stone-900/5">
@@ -202,7 +202,7 @@ export default function Home() {
       <footer className="border-t border-stone-200 bg-white py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-center text-sm text-stone-500 md:flex-row md:text-left lg:px-8">
           <p>
-            © {new Date().getFullYear()} Reisen mit Ilja. Alle Rechte
+            © {new Date().getFullYear()} Reisen mit Ilija. Alle Rechte
             vorbehalten.
           </p>
           <p>

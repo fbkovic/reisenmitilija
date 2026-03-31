@@ -25,7 +25,7 @@ Datenschutz zugestimmt: Ja
 
   try {
     await resend.emails.send({
-      from: "Reisen mit Ilja <onboarding@resend.dev>",
+      from: "Reisen mit Ilija <onboarding@resend.dev>",
       to: "ilija.reisen@yahoo.com",
       subject: `Neue Anfrage von ${vorname} ${name}`,
       text,
