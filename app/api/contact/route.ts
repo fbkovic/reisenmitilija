@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   const { vorname, name, telefon, email, zustimmung } = await req.json();
@@ -10,14 +12,6 @@ export async function POST(req: NextRequest) {
       { status: 400 }
     );
   }
-
-  const transporter = nodemailer.createTransport({
-    service: "yahoo",
-    auth: {
-      user: "ilija.reisen@yahoo.com",
-      pass: process.env.EMAIL_PASS,
-    },
-  });
 
   const text = `
 Neue Kontaktanfrage über reisenmitilija.at
@@ -30,8 +24,8 @@ Datenschutz zugestimmt: Ja
   `.trim();
 
   try {
-    await transporter.sendMail({
-      from: "ilija.reisen@yahoo.com",
+    await resend.emails.send({
+      from: "Reisen mit Ilja <onboarding@resend.dev>",
       to: "ilija.reisen@yahoo.com",
       subject: `Neue Anfrage von ${vorname} ${name}`,
       text,
