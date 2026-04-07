@@ -184,8 +184,8 @@ export default function Home() {
             <a href="tel:+436776472130" className="transition hover:text-teal-600">
               +43 677 647 213 00
             </a>
-            <a href="mailto:ilija.reisen@yahoo.com" className="transition hover:text-teal-600">
-              ilija.reisen@yahoo.com
+            <a href="mailto:office@reisenmitilija.com" className="transition hover:text-teal-600">
+              office@reisenmitilija.com
             </a>
             <a
               href="https://www.instagram.com/reisenmitilija"
