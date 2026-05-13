@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ContactForm from "./components/ContactForm";
 import ReisekartenSection from "./components/ReisekartenSection";
+import AngebotPopup from "./components/AngebotPopup";
 
 const HERO_IMAGE =
   "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=2000&auto=format&fit=crop";
@@ -8,6 +9,7 @@ const HERO_IMAGE =
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#faf8f5] text-stone-900">
+      <AngebotPopup />
       <header className="absolute inset-x-0 top-0 z-20">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 lg:px-8">
           <span className="font-display text-xl font-medium tracking-tight text-white drop-shadow-sm md:text-2xl">
