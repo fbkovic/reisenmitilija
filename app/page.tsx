@@ -1,15 +1,9 @@
 import Image from "next/image";
 import ContactForm from "./components/ContactForm";
+import ReisekartenSection from "./components/ReisekartenSection";
 
 const HERO_IMAGE =
   "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=2000&auto=format&fit=crop";
-
-const REISEZIELE = [
-  { land: "Kroatien", beschreibung: "Istrien & Adriaküste" },
-  { land: "Slowenien", beschreibung: "Thermen & Wellness" },
-  { land: "Österreich", beschreibung: "Natur & Kultur" },
-  { land: "Italien", beschreibung: "Kurzreisen" },
-];
 
 export default function Home() {
   return (
@@ -99,6 +93,14 @@ export default function Home() {
               Gruppen mit.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-stone-600">
+              Während meines Studiums habe ich außerdem drei Jahre als
+              Pensionist*innenbetreuer für das KWP (Kuratorium Wiener
+              Pensionisten-Wohnhäuser) gearbeitet und dabei zahlreiche Ausflüge
+              und Aktivitäten mit Pensionist*innen organisiert und begleitet.
+              Dadurch konnte ich wertvolle Erfahrung im Umgang mit älteren
+              Menschen sammeln.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-stone-600">
               Ich spreche Deutsch und Kroatisch und kenne Österreich sowie
               Kroatien sehr gut.
             </p>
@@ -114,6 +116,11 @@ export default function Home() {
               <li className="flex gap-3">
                 <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-teal-500" />
                 Persönlicher Ansprechpartner von Anfang bis Ende
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-teal-500" />
+                3 Jahre Pensionist*innenbetreuer beim KWP – viel Erfahrung mit
+                älteren Menschen
               </li>
             </ul>
           </div>
@@ -137,24 +144,11 @@ export default function Home() {
               Geplante Reiseziele
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-stone-600">
-              Aktuell sammle ich unverbindlich Interessent*innen. Diese
+              Die erste Reise nach Kroatien ist bereits verfügbar – weitere
               Destinationen sind in Planung:
             </p>
           </div>
-          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {REISEZIELE.map((ziel) => (
-              <div
-                key={ziel.land}
-                className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm ring-1 ring-stone-900/5 transition hover:shadow-md"
-              >
-                <div className="mb-3 h-1.5 w-10 rounded-full bg-teal-500" />
-                <h3 className="font-display text-xl font-medium text-stone-900">
-                  {ziel.land}
-                </h3>
-                <p className="mt-1 text-stone-500">{ziel.beschreibung}</p>
-              </div>
-            ))}
-          </div>
+          <ReisekartenSection />
           <p className="mt-10 text-center text-sm text-stone-500">
             Weitere Ziele möglich – meld dich einfach mit deinen Wünschen.
           </p>
