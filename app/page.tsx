@@ -68,6 +68,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Vertrauen-Streifen */}
+      <section className="bg-white border-b border-stone-100">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <div className="grid grid-cols-2 divide-x divide-y divide-stone-100 lg:grid-cols-4 lg:divide-y-0">
+            <div className="flex flex-col items-center px-6 py-7 text-center">
+              <span className="text-3xl">🎓</span>
+              <p className="mt-3 text-sm font-semibold text-stone-800">Geographie-Absolvent</p>
+              <p className="mt-0.5 text-xs text-stone-500">Universität Wien</p>
+            </div>
+            <div className="flex flex-col items-center px-6 py-7 text-center">
+              <span className="text-3xl">🏠</span>
+              <p className="mt-3 text-sm font-semibold text-stone-800">3 Jahre Pensionist*innenbetreuer</p>
+              <p className="mt-0.5 text-xs text-stone-500">KWP – Kuratorium Wiener Pensionisten-Wohnhäuser</p>
+            </div>
+            <div className="flex flex-col items-center px-6 py-7 text-center">
+              <span className="text-3xl">🏫</span>
+              <p className="mt-3 text-sm font-semibold text-stone-800">Lehrer</p>
+              <p className="mt-0.5 text-xs text-stone-500">Wien & Linz</p>
+            </div>
+            <div className="flex flex-col items-center px-6 py-7 text-center">
+              <span className="text-3xl">🗣️</span>
+              <p className="mt-3 text-sm font-semibold text-stone-800">Deutsch & Kroatisch</p>
+              <p className="mt-0.5 text-xs text-stone-500">Österreich & Kroatien-Kenner</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Über uns */}
       <section
         id="ueber-uns"
