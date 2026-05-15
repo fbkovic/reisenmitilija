@@ -13,15 +13,99 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Reisen mit Ilija | Individuelle Reiseerlebnisse",
+  title: "Reisen mit Ilija | Begleitete Seniorenreisen in Österreich & Europa",
   description:
-    "Persönlich geplante Reisen und unvergessliche Momente. Bald unter reisenmitilija.at.",
-  metadataBase: new URL("https://reisenmitilija.at"),
+    "Entspannte Gruppenreisen für Pensionist*innen und Senior*innen mit persönlicher Betreuung. Organisiert von Ilija – Geograph, Lehrer und KWP-Pensionistenbetreuer aus Wien. Jetzt unverbindlich Interesse melden!",
+  metadataBase: new URL("https://reisenmitilija.com"),
+  keywords: [
+    "Seniorenreisen Österreich",
+    "begleitete Gruppenreisen",
+    "Reisen für Pensionisten",
+    "Seniorenreise Wien",
+    "Kroatien Seniorenreise",
+    "Reisebegleitung ältere Menschen",
+    "Gruppenreise mit Betreuung",
+    "Reisen mit Ilija",
+    "Pensionistenreise",
+    "barrierefreie Reisen",
+    "Senior Reiseveranstalter",
+    "betreute Reisen",
+  ],
+  authors: [{ name: "Ilija", url: "https://reisenmitilija.com" }],
+  creator: "Ilija",
+  publisher: "Reisen mit Ilija",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
-    title: "Reisen mit Ilija",
-    description: "Individuelle Reiseerlebnisse – bald online.",
+    title: "Reisen mit Ilija | Begleitete Senior*innenreisen",
+    description:
+      "Entspannte Gruppenreisen für Pensionist*innen mit persönlicher Betreuung. Gemeinsam unterwegs – schöne Momente erleben!",
+    url: "https://reisenmitilija.com",
+    siteName: "Reisen mit Ilija",
     locale: "de_AT",
     type: "website",
+    images: [
+      {
+        url: "/ilja.jpg",
+        width: 800,
+        height: 600,
+        alt: "Ilija – Reiseleiter und Pensionistenbetreuer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Reisen mit Ilija | Begleitete Senior*innenreisen",
+    description:
+      "Entspannte Gruppenreisen für Pensionist*innen mit persönlicher Betreuung. Jetzt unverbindlich Interesse melden!",
+    images: ["/ilja.jpg"],
+  },
+  alternates: {
+    canonical: "https://reisenmitilija.com",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  name: "Reisen mit Ilija",
+  description:
+    "Begleitete Gruppenreisen für Pensionist*innen und Senior*innen mit persönlicher Betreuung.",
+  url: "https://reisenmitilija.com",
+  telephone: "+436776472130",
+  email: "office@reisenmitilija.com",
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "AT",
+    addressLocality: "Wien",
+  },
+  founder: {
+    "@type": "Person",
+    name: "Ilija",
+    jobTitle: "Reisebegleiter, Geograph, Lehrer",
+    knowsLanguage: ["de", "hr"],
+  },
+  sameAs: [
+    "https://www.instagram.com/reisenmitilija",
+    "https://www.facebook.com/ReisenmitIlija",
+  ],
+  offers: {
+    "@type": "Offer",
+    description:
+      "Begleitete Gruppenreisen für Pensionist*innen und Senior*innen",
+    areaServed: {
+      "@type": "Country",
+      name: "Österreich",
+    },
   },
 };
 
@@ -32,6 +116,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className="scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${dmSans.variable} ${fraunces.variable} font-sans antialiased`}
       >
