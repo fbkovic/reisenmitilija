@@ -44,14 +44,15 @@ export default function Home() {
         </div>
         <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-16 pt-32 lg:px-8 lg:pb-24">
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-teal-200">
-            Begleitete Senior*innenreisen · Persönlich · Unvergesslich
+            Seniorenreisen aus Österreich · Kroatien · Slowenien · Italien
           </p>
           <h1 className="font-display max-w-3xl text-4xl font-medium leading-tight text-white md:text-5xl lg:text-6xl">
-            Entspannte Gruppenreisen mit persönlicher Betreuung.
+            Begleitete Seniorenreisen mit persönlicher Betreuung.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-stone-200 md:text-xl">
             Für Pensionist*innen und Senior*innen, die nicht alleine reisen
             möchten – organisiert von Ilija, Geograph und erfahrener Reisebegleiter.
+            Seniorenreisen nach Kroatien, Slowenien, Österreich und Italien.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
@@ -216,11 +217,11 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
           <div className="text-center">
             <h2 className="font-display text-3xl font-medium text-stone-900 md:text-4xl">
-              Geplante Reiseziele
+              Geplante Seniorenreisen
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-stone-600">
-              Die erste Reise nach Kroatien ist bereits verfügbar – weitere
-              Destinationen sind in Planung:
+              Seniorenreisen aus Österreich nach Kroatien, Slowenien, Österreich und Italien –
+              die erste Reise nach Kroatien ist bereits verfügbar, weitere Destinationen folgen:
             </p>
           </div>
           <ReisekartenSection />
