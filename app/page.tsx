@@ -251,11 +251,11 @@ export default function Home() {
           </div>
 
           <div className="mx-auto mt-10 flex flex-wrap justify-center gap-6 text-sm text-stone-500">
-            <a href="tel:+436776472130" className="transition hover:text-teal-600">
+            <a href="tel:+4367764721300" className="transition hover:text-teal-600">
               +43 677 647 213 00
             </a>
             <a
-              href="https://wa.me/436776472130"
+              href="https://wa.me/4367764721300"
               target="_blank"
               rel="noopener noreferrer"
               title="Ilija auf WhatsApp kontaktieren"

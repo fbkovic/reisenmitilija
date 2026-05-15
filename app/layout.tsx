@@ -85,7 +85,7 @@ const jsonLd = {
   description:
     "Begleitete Gruppenreisen für Pensionist*innen und Senior*innen mit persönlicher Betreuung.",
   url: "https://reisenmitilija.com",
-  telephone: "+436776472130",
+  telephone: "+4367764721300",
   email: "office@reisenmitilija.com",
   address: {
     "@type": "PostalAddress",
