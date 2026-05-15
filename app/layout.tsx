@@ -13,7 +13,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Reisen mit Ilija | Begleitete Seniorenreisen in Österreich & Europa",
+  title: "Reisen mit Ilija | Seniorenreisen Österreich & Europa",
   description:
     "Entspannte Gruppenreisen für Pensionist*innen und Senior*innen mit persönlicher Betreuung. Organisiert von Ilija – Geograph, Lehrer und KWP-Pensionistenbetreuer aus Wien. Jetzt unverbindlich Interesse melden!",
   metadataBase: new URL("https://reisenmitilija.com"),

@@ -17,6 +17,7 @@ export default function Home() {
           </span>
           <a
             href="#kontakt"
+            title="Zur Kontaktsektion"
             className="rounded-full bg-white/15 px-4 py-2 text-sm font-medium text-white backdrop-blur-md transition hover:bg-white/25"
           >
             Kontakt
@@ -30,6 +31,7 @@ export default function Home() {
           <Image
             src={HERO_IMAGE}
             alt="Reise- und Landschaftsimpression"
+            title="Reise- und Landschaftsimpression"
             fill
             priority
             className="object-cover"
@@ -54,12 +56,14 @@ export default function Home() {
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#kontakt"
+              title="Unverbindlich Interesse melden"
               className="inline-flex items-center justify-center rounded-full bg-teal-500 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-teal-900/30 transition hover:bg-teal-400"
             >
               Interesse melden
             </a>
             <a
               href="#ueber-uns"
+              title="Mehr über Ilija erfahren"
               className="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/10 px-8 py-3.5 text-base font-medium text-white backdrop-blur-sm transition hover:bg-white/20"
             >
               Mehr erfahren
@@ -198,6 +202,7 @@ export default function Home() {
             <Image
               src="/ilja.jpg"
               alt="Ilija – Reisen mit Ilija"
+              title="Ilija – Reiseleiter und Seniorenreise-Begleiter"
               fill
               className="object-cover object-top"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -252,6 +257,7 @@ export default function Home() {
               href="https://wa.me/436776472130"
               target="_blank"
               rel="noopener noreferrer"
+              title="Ilija auf WhatsApp kontaktieren"
               className="transition hover:text-teal-600"
             >
               WhatsApp
@@ -263,6 +269,7 @@ export default function Home() {
               href="https://www.instagram.com/reisenmitilija"
               target="_blank"
               rel="noopener noreferrer"
+              title="Reisen mit Ilija auf Instagram"
               className="transition hover:text-teal-600"
             >
               Instagram
@@ -271,6 +278,7 @@ export default function Home() {
               href="https://www.facebook.com/ReisenmitIlija"
               target="_blank"
               rel="noopener noreferrer"
+              title="Reisen mit Ilija auf Facebook"
               className="transition hover:text-teal-600"
             >
               Facebook
@@ -294,6 +302,7 @@ export default function Home() {
                 href="https://www.instagram.com/reisenmitilija"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Reisen mit Ilija auf Instagram"
                 className="transition hover:text-teal-600"
               >
                 Instagram
@@ -302,6 +311,7 @@ export default function Home() {
                 href="https://www.facebook.com/ReisenmitIlija"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Reisen mit Ilija auf Facebook"
                 className="transition hover:text-teal-600"
               >
                 Facebook
