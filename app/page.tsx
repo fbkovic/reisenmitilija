@@ -96,6 +96,46 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Warum mit Ilija reisen */}
+      <section className="py-16 lg:py-20 border-b border-stone-200/80 bg-[#faf8f5]">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <div className="grid grid-cols-2 gap-10 lg:grid-cols-4">
+            <div className="flex flex-col items-center text-center">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-teal-50">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m8.66-10h-1M4.34 12h-1m14.95-6.95-.71.71M6.05 17.24l-.71.71m12.02 0-.71-.71M6.05 6.76l-.71-.71M12 7a5 5 0 1 0 0 10A5 5 0 0 0 12 7z" />
+                </svg>
+              </div>
+              <p className="mt-4 text-sm font-semibold text-stone-800">Entspannte Reisen ohne Hektik</p>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-teal-50">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0z" />
+                </svg>
+              </div>
+              <p className="mt-4 text-sm font-semibold text-stone-800">Gemeinsam statt alleine reisen</p>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-teal-50">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008z" />
+                </svg>
+              </div>
+              <p className="mt-4 text-sm font-semibold text-stone-800">Gut organisiert und betreut</p>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-teal-50">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                </svg>
+              </div>
+              <p className="mt-4 text-sm font-semibold text-stone-800">Persönlich, herzlich und kompetent</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Über uns */}
       <section
         id="ueber-uns"
@@ -208,6 +248,14 @@ export default function Home() {
             <a href="tel:+436776472130" className="transition hover:text-teal-600">
               +43 677 647 213 00
             </a>
+            <a
+              href="https://wa.me/436776472130"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-teal-600"
+            >
+              WhatsApp
+            </a>
             <a href="mailto:office@reisenmitilija.com" className="transition hover:text-teal-600">
               office@reisenmitilija.com
             </a>
@@ -217,28 +265,49 @@ export default function Home() {
               rel="noopener noreferrer"
               className="transition hover:text-teal-600"
             >
-              @reisenmitilija
+              Instagram
+            </a>
+            <a
+              href="https://www.facebook.com/ReisenmitIlija"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-teal-600"
+            >
+              Facebook
             </a>
           </div>
         </div>
       </section>
 
       <footer className="border-t border-stone-200 bg-white py-10">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-center text-sm text-stone-500 md:flex-row md:text-left lg:px-8">
-          <p>
-            © {new Date().getFullYear()} Reisen mit Ilija. Alle Rechte
-            vorbehalten.
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <p className="text-center font-display text-base text-stone-400 italic mb-6">
+            Gemeinsam unterwegs – schöne Momente erleben!
           </p>
-          <p>
-            <a
-              href="https://www.instagram.com/reisenmitilija"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition hover:text-teal-600"
-            >
-              @reisenmitilija
-            </a>
-          </p>
+          <div className="flex flex-col items-center justify-between gap-4 text-sm text-stone-500 md:flex-row">
+            <p>
+              © {new Date().getFullYear()} Reisen mit Ilija. Alle Rechte
+              vorbehalten.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="https://www.instagram.com/reisenmitilija"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition hover:text-teal-600"
+              >
+                Instagram
+              </a>
+              <a
+                href="https://www.facebook.com/ReisenmitIlija"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition hover:text-teal-600"
+              >
+                Facebook
+              </a>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
